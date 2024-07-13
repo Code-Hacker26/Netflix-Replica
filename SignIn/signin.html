@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Signin Page</title>
+    <link
+      rel="icon"
+      href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png"
+    />
+    <link rel="stylesheet" href="signin.css">
+    </head>
+<body>
+    <nav>
+        <a href="#"><img src="logo.png" alt="logo"></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign In</h2>
+        <form action="#">
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email or phone number</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <button type="submit">Sign In</button>
+            <div class="form-help"> 
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+        </form>
+        <p>New to Netflix? <a href="#">Sign up now</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+            <a href="#">Learn more.</a>
+        </small>
+    </div>  
+
+    <!-- Footer Section -->
+    <footer>
+        <section class="container margin-inline">
+            
+            <footer class="footer footer-black">
+                <div class="footer-container margin-inline">
+                    <p>
+                        Questions? <br />
+                        Call 007-803-321-2130
+                    </p>
+                    <div class="links">
+                        <ul class="">
+                            <li><a class="text-terms text-underline" href="">FAQ</a></li>
+                            <li><a class="text-terms text-underline" href="">Cookie Preferences</a></li>
+                        </ul>
+        
+                        <ul>
+                            <li><a class="text-terms text-underline" href="">Help Center</a></li>
+                            <li><a class="text-terms text-underline" href="">Corporate Information</a></li>
+                        </ul>
+        
+                        <a class="text-terms text-underline" href="">Terms of Use</a>
+        
+                        <a class="text-terms text-underline" href="">Privacy</a>
+                    </div>
+        
+                    <div class="language">
+                        <select class="language-select" onchange="location=this.value;">
+                            <option value="" selected>English</option>
+                            <option value="">Hindi</option>
+                        </select>
+                        <div class="language-icon">
+                            <i class="fas fa-globe globe"></i>
+                            <i class="fas fa-chevron-down chevron"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+      
+                 
+</body>
+</html>
